@@ -118,6 +118,10 @@ input[type="checkbox"] {
 
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 768px) {
+  .navbar {
+    flex-flow: column;
+    align-items: center;
+  }
   .menu {
     display: none;
     position: absolute;
