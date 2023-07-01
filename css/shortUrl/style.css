@@ -1,0 +1,36 @@
+.short--Url__Section {
+  display: flex;
+  justify-content: center;
+}
+.short--Url__Section {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.short--Url {
+  background-color: var(--Dark-Violet);
+  padding: 2.5rem;
+  border-radius: 1rem;
+  width: 60%;
+}
+
+.short--Url--input {
+  display: flex;
+  justify-content: center;
+}
+
+.short--Url--input > input {
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 80%;
+  font-size: 18px;
+  margin-right: 1rem;
+}
+.short--Url--input > button {
+  width: 130px;
+  border-radius: 1rem;
+  font-size: 18px;
+  background-color: var(--Cyan);
+  color: #ffff;
+}
