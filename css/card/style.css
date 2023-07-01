@@ -45,7 +45,8 @@
   }
   .card--wrapper {
     flex-wrap: wrap;
-    padding: 2.5rem;
+    justify-content: center;
+    align-items: center;
   }
   .banner--Links {
     align-items: center;
