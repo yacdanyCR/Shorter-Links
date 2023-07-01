@@ -37,3 +37,24 @@
 .footer--Info--List > li {
   padding-top: 1.5rem;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer--Icon {
+    margin: 0;
+  }
+  .footer--Info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer--Social__List {
+    margin-top: 2rem;
+  }
+  .footer--Social__List > li {
+    margin-right: 1.5rem;
+  }
+}
