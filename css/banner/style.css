@@ -1,0 +1,39 @@
+.banner__img {
+  background: url("../../images/illustration-working.svg");
+  width: 500px;
+  height: 450px;
+}
+
+.Banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner--Links {
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.banner--Links > h1 {
+  font-size: 100px;
+}
+
+.banner--Links > span {
+  font-size: 18px;
+  padding-right: 1rem;
+}
+
+.banner--Links > button {
+  margin-top: 2rem;
+  width: 160px;
+  height: 50px;
+  border-radius: 1rem;
+  background-color: var(--Cyan);
+  border: none;
+  color: #ffff;
+  font-size: 18px;
+  cursor: pointer;
+}
