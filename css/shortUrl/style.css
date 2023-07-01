@@ -4,7 +4,9 @@
 }
 .short--Url__Section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-top: 2.5rem;
 }
 
@@ -33,4 +35,32 @@
   font-size: 18px;
   background-color: var(--Cyan);
   color: #ffff;
+}
+
+.short--Url--List {
+  margin-top: 2rem;
+  background-color: var(--Grayish-Violet);
+  padding: 2.5rem;
+  width: 60%;
+  border-radius: 1rem;
+}
+
+.short--Url--result {
+  display: flex;
+  justify-content: space-between;
+}
+
+.short--Url--result > span {
+  display: flex;
+  align-items: center;
+}
+
+.short--Url--copy > button {
+  width: 130px;
+  border-radius: 1rem;
+  font-size: 18px;
+  background-color: var(--Cyan);
+  color: #ffff;
+  height: 50px;
+  margin-left: 1.5rem;
 }
