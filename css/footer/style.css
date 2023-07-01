@@ -1,0 +1,39 @@
+.footer__Section {
+  display: flex;
+  justify-content: center;
+  background-color: var(--Very-Dark-Violet);
+  padding: 3.5rem;
+  color: #ffff;
+}
+
+.footer--Icon {
+  background-image: url("../../images/logo.svg");
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 50px;
+  margin-right: 2rem;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.footer--Info {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.footer--Social__List {
+  display: flex;
+}
+
+.footer--Social__List > li {
+  margin-left: 1.5rem;
+}
+
+.footer--Info--List > li {
+  padding-top: 1.5rem;
+}
