@@ -1,0 +1,40 @@
+.card--Section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5.5rem;
+}
+
+.card--wrapper {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.card--info > h1 {
+  font-size: 40px;
+  text-align: center;
+}
+.card--info > span {
+  font-size: 18px;
+  text-align: justify;
+  width: 40px;
+}
+.card--information {
+  background-color: lightblue;
+  width: 300px;
+  border-radius: 1rem;
+  height: max-content;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.card--logo {
+  position: relative;
+  top: -50px;
+  background-color: var(--Very-Dark-Blue);
+  padding: 1rem;
+  border-radius: 100%;
+  width: max-content;
+}
